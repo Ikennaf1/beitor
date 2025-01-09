@@ -7,6 +7,7 @@
         <meta name="HandheldFriendly" content="true">
         <meta name="referrer" content="no-referrer">
         <title>Beitor</title>
+        <link href="/css/style.css" rel="stylesheet">
         <link rel="preconnect" href="https://styles.assets-landingi.com/">
         <link rel="preconnect" href="https://old.assets-landingi.com/">
         <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -53,7 +54,111 @@ window.lazySizesConfig.init = false;
 <script>
 lazySizes.init();
 </script>
-    </head>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+    /* Slideshow container */
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade-in {
+  animation-name: fade-in;
+  animation-duration: 5s;
+}
+
+@keyframes fade-in {
+  0% {opacity: .4}
+  80% {opacity: 1}
+}
+
+.fade-out {
+  animation-name: fade-in;
+  animation-duration: 5s;
+}
+
+@keyframes fade-out {
+  80% {opacity: 1}
+  100% {opacity: .4}
+}
+</style>
+</head>
     <body id="Zcc579e32ab7c2c234c287cbcbc03f3a7639f9f1">
         <div id="VbAH1H7oOcTviNLA3T42vrV7SvyfEpGN" class="widget widget-section ">    
             <div class="row">                 
@@ -78,59 +183,43 @@ lazySizes.init();
                 </div>    
             </div>
         </div>
-        <div id="qOb0g4TfF9GoUxQxgA3oweV2ipTBVZ4Z" class="widget widget-section ">    
+        <div id="" class="cover-img">    
             <div class="row">                 
-                <div class="container ">                         
-                    <div id="vRseLwIKdCpJSnC8flV4zGPJhhNx3KTb" class="widget widget-text">
-                        <p>Your Unique Selling Proposition
-                        </p>
+                <div class="slidees">                         
+                    <div class="slideshow-container">
+
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides fade-in fade-out">
+                          <!-- <div class="numbertext">1 / 3</div> -->
+                          <img src="/uploads/2015/08/980x360.jpg" style="object-fit:cover; object-position:center;">
+                          <div class="text"><span>Caption Text</span></div>
+                        </div>
+                      
+                        <div class="mySlides fade-in fade-out">
+                          <!-- <div class="numbertext">2 / 3</div> -->
+                          <img src="/uploads/2015/08/dovewell-homepage.png" style="object-fit:cover; object-position:center;">
+                          <div class="text"><span>Caption Two</span></div>
+                        </div>
+                      
+                        <div class="mySlides fade-in fade-out">
+                          <!-- <div class="numbertext">3 / 3</div> -->
+                          <img src="/uploads/2015/08/980x360-OIL-RIG.jpg" style="object-fit:cover; object-position:center;">
+                          <div class="text"><span>Caption Three</span></div>
+                        </div>
+                      
+                        <!-- Next and previous buttons -->
+                        <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
                     </div>
-                    <div id="FyWhPF3hCncvxyT8EqqBRWOTilIx7S7G" class="widget widget-text">
-                        <p>A supporting statement for your Value Proposition to encourage customers to complete your CTA
-                        </p>
-                    </div>
-                    <form id="OTZSeEMF6ZTlO6q2IcBKUuzi7eotzGi0" class="widget widget-form" data-orientation="vertical" data-version="2.1" action="https://new.landingi.com/landend.php/submit/800175637187549713a5">
-                        <div id="PKHWxsn9w4hkk3NTAdX2LSgWAWvD9vNF" class="widget widget-container clearfix">
-                            <label id="JJyhMfALiMeae3z0KS58bXiuxEMRGs65" class="widget widget-text widget-regular-label widget-label">
-                            </label>
-                            <input class="widget widget-input-text" id="szUq4eAD7egNNw1hPil5Gi5cKmM92Zm2" type="text" subtype="name" parentid="OTZSeEMF6ZTlO6q2IcBKUuzi7eotzGi0" placeholder="Your name" name="name">
-                        </div>
-                        <div id="D7KBbzTxzFPAQTR7peew8cClfaH3yTuD" class="widget widget-container clearfix">
-                            <label id="U0ktRDaL1QgBXqapJFeWCIEIsABu7plH" class="widget widget-text widget-regular-label widget-label">
-                            </label>
-                            <input class="widget widget-input-text" id="R6mlb7eDE4TwSxdMnlPLLtA3J7T5rc9w" type="email" subtype="email" parentid="OTZSeEMF6ZTlO6q2IcBKUuzi7eotzGi0" placeholder="Email" name="email">
-                        </div>
-                        <div id="az5IoXOvQ3Vw4pcageZGf9FUeXEDS6dU" class="widget widget-container clearfix">
-                            <label id="JgLvqfNghDZ1krCCZzUelG1KwK0RgV02" class="widget widget-text widget-regular-label widget-label">
-                            </label>
-                            <input class="widget widget-input-text" id="MKm2kcUhh14N5s4HhERpBfqe1PyGJP9i" type="text" subtype="company" parentid="OTZSeEMF6ZTlO6q2IcBKUuzi7eotzGi0" placeholder="Company name" name="company">
-                        </div>
-                        <div id="sTN0EwKlTOPhzdZX5IlSct431udkhP1s" class="widget widget-container clearfix">
-                            <label id="MJ0uSckGla7qOUDUfvBclD90OoEtoAJN" class="widget widget-text widget-regular-label widget-label">
-                            </label>
-                            <input class="widget widget-input-text" id="qXzInnLtkmPOJCyV8661iiHnqATtqiFJ" type="tel" subtype="phone" parentid="OTZSeEMF6ZTlO6q2IcBKUuzi7eotzGi0" placeholder="Phone Number" name="phone">
-                        </div>
-                        <div id="mIwXX0ReDMM5XX7x8s1TD0NGeeA5z0Xz" class="widget widget-container input-button-container clearfix">
-                            <button class="widget widget-input-button" type="submit" id="G4qT0Tefx00SwRGMqyCkpSuu8J6E9U6E" parentid="OTZSeEMF6ZTlO6q2IcBKUuzi7eotzGi0">
-                                <div class="widget-overlay">
-                                </div>BUY IT NOW
-                            </button>
-                        </div>
-                        <input type="hidden" name="_name_" value="">
-                        <input type="hidden" name="_uid" value="OTZSeEMF6ZTlO6q2IcBKUuzi7eotzGi0">
-                        <input type="hidden" name="_redirect" value="">
-                    </form>
-                    <div id="kVDvMOu8IdLhAHTLk07DMcCnsGSEdVb6" class="widget widget-box">
-                    </div>
-                    <div id="Kk2QISE05KUNq4STlGTWwrDom0TZ4Tvr" class="widget widget-text">
-                        <p>Let's get in touch
-                        </p>
-                    </div>
-                    <div id="qq0lENARhqmOHSS8mc2exvriiAJExJ4u" class="widget widget-text">
-                        <p>1 - 800 159 - 157
-                        </p>
-                    </div>        
-                </div>    
+                      <br>
+                      
+                      <!-- The dots/circles -->
+                      <!-- <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                      </div> -->
+                </div>
             </div>
         </div>
         <div id="qv7WHb0dApEbHqZrQlCKCEV3XnKZqZE5" class="widget widget-section ">    
@@ -147,8 +236,8 @@ lazySizes.init();
             <div class="row">                 
                 <div class="container ">                         
                     <img id="VZATI300uzoFSeGFr2AaEtx4BtTWuwtF" class="widget widget-image lazyloaded" data-original="https://images.assets-landingi.com/kf89OJ0d/icon1.png" data-src="https://images.assets-landingi.com/kf89OJ0d/icon1.png" alt="" decoding="async" src="index_files/icon1.png" width="58" height="51">
-                    <div id="GPVvnAP5el89I9d7MZr2sACgPJxxrOQ8" class="widget widget-text">
-                        <p>ARCHITECTURAL DESIGN
+                    <div id="GPVvnAP5el89I9d7MZr2sACgPJxxrOQ8" class="widget widget-text" style="text-transform: uppercase;">
+                        <p>Procurement
                         </p>
                     </div>
                     <div id="ZSTVKDslUQ4JoHJB1EU4H01FOFa5vGzc" class="widget widget-text">
@@ -156,8 +245,8 @@ lazySizes.init();
                         </p>
                     </div>
                     <img id="nBz0pMr4mF01ZSpkDhafJGSbC3LGgcU0" class="widget widget-image lazyloaded" data-original="https://images.assets-landingi.com/dfWhJVea/icon2.png" data-src="https://images.assets-landingi.com/dfWhJVea/icon2.png" alt="" decoding="async" src="index_files/icon2.png" width="56" height="50">
-                    <div id="aRh0ssOcuvBNctPD2JNogVwnsrrashUh" class="widget widget-text">
-                        <p>RECONSTRUCTION SERVICES
+                    <div id="aRh0ssOcuvBNctPD2JNogVwnsrrashUh" class="widget widget-text" style="text-transform: uppercase;">
+                        <p>Installation and maintenance
                         </p>
                     </div>
                     <div id="eHsWbo2chhIc8AFxFfrysi4iA6asAvxo" class="widget widget-text">
@@ -165,14 +254,23 @@ lazySizes.init();
                         </p>
                     </div>
                     <img id="bup74SGzpNuholIOw2m2LlHQtxRII554" class="widget widget-image lazyloaded" data-original="https://images.assets-landingi.com/99NDdQod/icon3.png" data-src="https://images.assets-landingi.com/99NDdQod/icon3.png" alt="" decoding="async" src="index_files/icon3.png" width="56" height="50">
-                    <div id="LCNcaBSw2VKvT7awqi7eIoM2X0LN7UCJ" class="widget widget-text">
-                        <p>COMPLEX CONSTRUCTION
+                    <div id="LCNcaBSw2VKvT7awqi7eIoM2X0LN7UCJ" class="widget widget-text" style="text-transform: uppercase;">
+                        <p>Calibration
                         </p>
                     </div>
                     <div id="gBnpT5a2i19Dv1RWL3iMxR6BEJoUWAL2" class="widget widget-text">
                         <p>Add a description of your offer and key benefits. What it is and how it helps your customer.
                         </p>
-                    </div>        
+                    </div>
+                    <!-- <img id="bup74SGzpNuholIOw2m2LlHQtxRII554" class="widget widget-image lazyloaded" data-original="https://images.assets-landingi.com/99NDdQod/icon3.png" data-src="https://images.assets-landingi.com/99NDdQod/icon3.png" alt="" decoding="async" src="index_files/icon3.png" width="56" height="50">
+                    <div id="LCNcaBSw2VKvT7awqi7eIoM2X0LN7UCJ" class="widget widget-text" style="text-transform: uppercase;">
+                        <p>Intelligent pigging
+                        </p>
+                    </div>
+                    <div id="gBnpT5a2i19Dv1RWL3iMxR6BEJoUWAL2" class="widget widget-text">
+                        <p>Add a description of your offer and key benefits. What it is and how it helps your customer.
+                        </p>
+                    </div>        -->
                 </div>    
             </div>
         </div>
@@ -430,6 +528,54 @@ lazySizes.init();
             $('input[type=\"file\"]').on('click', prevent);
         });
     })();
+</script>
+
+<script>
+// let slideIndex = 1;
+// showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+//   showSlides(slideIndex = n);
+}
+
+// function showSlides(n) {
+//   let i;
+//   let slides = document.getElementsByClassName("mySlides");
+//   let dots = document.getElementsByClassName("dot");
+//   if (n > slides.length) {slideIndex = 1}
+//   if (n < 1) {slideIndex = slides.length}
+//   for (i = 0; i < slides.length; i++) {
+//     slides[i].style.display = "none";
+//   }
+//   for (i = 0; i < dots.length; i++) {
+//     dots[i].className = dots[i].className.replace(" active", "");
+//   }
+//   slides[slideIndex-1].style.display = "block";
+//   dots[slideIndex-1].className += " active";
+// } 
+
+// 
+
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
 </script>
     </body>
 </html>

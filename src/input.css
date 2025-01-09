@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cover-img {
+    background-image: url('/index_files/bg1-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @apply w-full;
+}
+
+.slidees {
+    @apply flex items-center justify-center w-full h-auto p-12;
+}
+
+.slideshow-container {
+    @apply w-full flex justify-center;
+}
+
+.mySlides img {
+    @apply mx-auto;
+}
+
+.text {
+    @apply flex justify-center;
+}
+
+.text span {
+    @apply bg-[#f0552e] px-8 py-4 font-bold;
+}
