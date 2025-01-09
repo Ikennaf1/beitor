@@ -29,3 +29,20 @@
 .text span {
     @apply bg-[#f0552e] px-8 py-4 font-bold;
 }
+
+.welcome-panel {
+    @apply w-full h-auto border-y border-white bg-[#2c2d2f] mt-24 py-4;
+}
+
+.welcome {
+    @apply flex justify-center items-start w-full h-full border-y border-dashed border-white/60 p-4 text-white;
+}
+
+.welcome div {
+    @apply w-full lg:w-4/6 flex lg:items-start lg:justify-between flex-wrap;
+}
+
+.welcome-read-me {
+    /* color: #f07e62 */
+    @apply bg-[#f0552e] py-4 px-8 text-white font-bold cursor-pointer hover:bg-[#f07e62] transition duration-200;
+}
