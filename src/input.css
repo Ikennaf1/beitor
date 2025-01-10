@@ -46,3 +46,11 @@
     /* color: #f07e62 */
     @apply bg-[#f0552e] py-4 px-8 text-white font-bold cursor-pointer hover:bg-[#f07e62] transition duration-200;
 }
+
+.value-prop {
+    @apply flex flex-col gap-4 items-center w-full lg:w-1/6 text-center;
+}
+
+.stroke-color {
+    @apply text-[#f0552e];
+}
