@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.mt--32 {
+    @apply mt-[-32px];
+}
+
 .cover-img {
     background-image: url('/index_files/bg1-1.jpg');
     background-position: center;
