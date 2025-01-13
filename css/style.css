@@ -604,6 +604,10 @@ video {
   position: relative;
 }
 
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -703,6 +707,10 @@ video {
   width: 100%;
 }
 
+.max-w-sm {
+  max-width: 24rem;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -763,6 +771,10 @@ video {
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
+.text-wrap {
+  text-wrap: wrap;
+}
+
 .border-y {
   border-top-width: 1px;
   border-bottom-width: 1px;
@@ -797,6 +809,11 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-8 {
@@ -1049,6 +1066,10 @@ video {
   color: rgb(240 85 46 / var(--tw-text-opacity, 1));
 }
 
+/* .footer-container {
+    @apply w-full;
+} */
+
 .d-foot {
   margin-left: auto;
   margin-right: auto;
@@ -1095,7 +1116,12 @@ video {
   }
 }
 
-/* row-gap-6 */
+.d-foot2 {
+  grid-column: span 1 / span 1;
+  width: 100%;
+  max-width: 24rem;
+  text-wrap: wrap;
+}
 
 @media (min-width: 640px) {
   .d-foot2 {
@@ -1104,7 +1130,10 @@ video {
 }
 
 .d-foot3 {
+  position: relative;
   margin-top: 1.5rem;
+  max-width: 24rem;
+  text-wrap: wrap;
 }
 
 @media (min-width: 1024px) {
@@ -1114,6 +1143,7 @@ video {
 }
 
 .d-foot4 {
+  max-width: 24rem;
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity, 1));
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
@@ -1203,6 +1233,16 @@ video {
   background-size:cover;
   position:relative;
   display:block;
+  overflow: hidden;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .adp {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 .hover\:bg-\[\#f07e62\]:hover {
@@ -1216,6 +1256,10 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
   .sm\:max-w-xl {
     max-width: 36rem;
   }
@@ -1269,11 +1313,20 @@ video {
     max-width: 1280px;
   }
 
+  .lg\:max-w-sm {
+    max-width: 24rem;
+  }
+
   .lg\:items-start {
     align-items: flex-start;
   }
 
   .lg\:justify-between {
     justify-content: space-between;
+  }
+
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
