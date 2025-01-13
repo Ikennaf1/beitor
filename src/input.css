@@ -58,3 +58,50 @@
 .stroke-color {
     @apply text-[#f0552e];
 }
+
+.d-foot {
+    @apply pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8;
+}
+
+.d-foot1 {
+    @apply grid gap-10 mb-8 sm:grid-cols-2 lg:grid-cols-4;
+}
+/* row-gap-6 */
+
+.d-foot2 {
+    @apply sm:col-span-2;
+}
+
+.d-foot3 {
+    @apply mt-6 lg:max-w-sm;
+}
+
+.d-foot4 {
+    @apply text-gray-500 transition-colors duration-300 hover:text-[#f0552e];
+}
+
+.d-foot5 {
+    @apply flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row;
+}
+
+.d-foot6 {
+    list-style-type: none !important;
+    @apply flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row list-none;
+}
+
+.d-foot7 {
+    @apply text-sm text-gray-600 transition-colors duration-300 hover:text-[#f0552e];
+}
+
+.adp {
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    border-bottom:0;
+    background-color:#ffffff;
+    background-image:url("/index_files/bg3.jpg");
+    background-position:top left;background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    position:relative;display:block;
+}
