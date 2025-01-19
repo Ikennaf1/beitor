@@ -2,8 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --primary-color: #f0552e;
+    --primary-color-hover: #f38468;
+}
+
 .mt--32 {
     @apply mt-[-32px];
+}
+
+.logo-color {
+    @apply text-[#2c2d2f];
 }
 
 .cover-img {
@@ -31,7 +40,7 @@
 }
 
 .text span {
-    @apply bg-[#f0552e] px-8 py-4 font-bold;
+    @apply bg-primary-color px-8 py-4 font-bold;
 }
 
 .welcome-panel {
@@ -47,8 +56,7 @@
 }
 
 .welcome-read-me {
-    /* color: #f07e62 */
-    @apply bg-[#f0552e] py-4 px-8 text-white font-bold cursor-pointer hover:bg-[#f07e62] transition duration-200;
+    @apply bg-primary-color py-4 px-8 text-white font-bold cursor-pointer hover:bg-primary-color-hover transition duration-200;
 }
 
 .value-prop {
@@ -56,7 +64,7 @@
 }
 
 .stroke-color {
-    @apply text-[#f0552e];
+    @apply text-primary-color;
 }
 
 /* .footer-container {
@@ -80,7 +88,7 @@
 }
 
 .d-foot4 {
-    @apply text-gray-500 transition-colors duration-300 hover:text-[#f0552e] max-w-sm;
+    @apply text-gray-500 transition-colors duration-300 hover:text-primary-color-hover max-w-sm;
 }
 
 .d-foot5 {
@@ -93,7 +101,7 @@
 }
 
 .d-foot7 {
-    @apply text-sm text-gray-600 transition-colors duration-300 hover:text-[#f0552e];
+    @apply text-sm text-gray-600 transition-colors duration-300 hover:text-primary-color-hover;
 }
 
 .adp {

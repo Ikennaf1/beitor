@@ -6,7 +6,12 @@ module.exports = {
     "./*.{html,js}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "primary-color": "var(--primary-color)",
+        "primary-color-hover": "var(--primary-color-hover)",
+      },
+    },
   },
   plugins: [],
 }
