@@ -1,1 +1,0 @@
-(function($){'use strict';$(document).ready(function(){$('body').tooltip({selector:'[data-toggle=tooltip]',container:'body',placement:'auto bottom',template:'<div class="form-tooltip" role="tooltip"><div class="form-tooltip-arrow"></div><div class="form-tooltip-inner"></div></div>'})})})(jQuery)
