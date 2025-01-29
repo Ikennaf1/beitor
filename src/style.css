@@ -1,5 +1,16 @@
 @import "tailwindcss";
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
 
 /* .lg-nav {
   @apply p-4 hidden md:flex flex-row justify-between font-bold;
 } */
+
+.body-margin {
+  @apply px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8;
+}
+
+.content {
+  @apply flex flex-col gap-16;
+}
