@@ -7,8 +7,12 @@
   @apply p-4 hidden md:flex flex-row justify-between font-bold;
 } */
 
+* {
+  scroll-behavior: smooth;
+}
+
 .my-border-white {
-  border: 3px solid white;
+  border: 2px solid white;
   border-color: white;
 }
 

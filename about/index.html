@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="/dist/assets/main-DB3-bf_u.css" rel="stylesheet"> -->
+    <title>Beitor Nigeria Limited | About Us</title>
+	  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	  <!---
+	  You may need jQuery
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      --->
+
+    <style>
+        .header {
+            /* background:url('https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); */
+            background:url('/images/header-image.jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            /* background-color: rgba(0, 0, 0, 0.233); */
+        }
+    </style>
+  </head>
+
+  <body>
+      
+  <!-- Nav -->
+	<nav id="nav" class="fixed inset-x-0 top-0 flex flex-row justify-between items-center z-10 text-white bg-transparent body-margin py-4">
+
+		<div class="">
+			<div class="font-extrabold tracking-widest text-xl w-16 h-16">
+        <a href="/" class="transition duration-500 hover:text-indigo-500">
+          <img src="/images/logo-outline-white.png" alt="" srcset="">
+        </a>
+      </div>
+		</div>
+
+		<!-- Nav Items Working on Tablet & Bigger Sceen -->
+		<div class="hidden md:flex flex-row justify-between font-bold">
+			<a id="" href="/" class="mx-4 text-lg  border-b-2 border-transparent hover:border-b-2 hover:border-indigo-300 transition duration-500">
+        Home
+      </a>
+      <a id="" href="/about" class="mx-4 text-lg  border-b-2 border-transparent hover:border-b-2 hover:border-indigo-300 transition duration-500">
+        About Us
+      </a>
+      <a id="" href="/what-we-do" class="mx-4 text-lg  border-b-2 border-transparent hover:border-b-2 hover:border-indigo-300 transition duration-500">
+        What We Do
+      </a>
+			<a href="#why-us" class="mx-4 text-lg border-b-2 border-transparent hover:border-b-2 hover:border-indigo-300 transition duration-500">
+        Why Beitor ?
+      </a>
+			<a href="/#footer" class="mx-4 text-lg border-b-2 border-transparent hover:border-b-2 hover:border-indigo-300 transition duration-500">
+        Contact
+      </a>
+    </div>
+
+		<!-- Burger Nav Button on Mobile -->
+		<div data-collapse-toggle="nav-opened" id="nav-open" class="p-4 lg:hidden" type="button" aria-controls="nav-opened" aria-expanded="false" aria-hidden="true">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+			 stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+				<line x1="3" y1="12" x2="21" y2="12"></line>
+				<line x1="3" y1="6" x2="21" y2="6"></line>
+				<line x1="3" y1="18" x2="21" y2="18"></line>
+			</svg>
+		</div>
+	</nav>
+
+	<!-- Opened Nav in Mobile, you can use javascript/jQuery -->
+	<div id="nav-opened" class="fixed left-0 right-0 bg-white mx-2 mt-16 rounded-br rounded-bl shadow z-10" hidden>
+		<div class="p-2 divide-y divide-gray-600 flex flex-col">
+			<a href="/" class="p-2 font-semibold hover:text-indigo-700">Home</a>
+			<a href="/about" class="p-2 font-semibold hover:text-indigo-700">About Us</a>
+			<a href="/what-we-do" class="p-2 font-semibold hover:text-indigo-700">What We Do</a>
+			<a href="/why-us" class="p-2 font-semibold hover:text-indigo-700">Why Beitor ?</a>
+			<a href="/#footer" class="p-2 font-semibold hover:text-indigo-700">Contact</a>
+		</div>
+  </div>
+  <!-- End nav -->
+
+  <!-- Header -->
+  <div class="mb-16 header">
+    <div class="">
+      <div class="px-4 py-24 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-48">
+        <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+          <p class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+            &nbsp;
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="absolute -mt-16 px-4 sm:px-0 lg:px-64 w-full text-white">
+      <div class="absolute inset-0 bg-transparent h-1/2"></div>
+      <div class="relative grid overflow-hidden bg-slate-700 divide-y rounded shadow sm:divide-y-0 sm:divide-x sm:max-w-screen-sm sm:grid-cols-3 lg:w-1/2">
+        <div class="inline-block px-8 py-16 text-center">
+          <p class="font-bold tracking-wide">Make it better</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
