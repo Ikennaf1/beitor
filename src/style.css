@@ -11,6 +11,10 @@
   scroll-behavior: smooth;
 }
 
+.hover-transition {
+  @apply transition ease-in-out duration-500;
+}
+
 .my-border-white {
   border: 2px solid white;
   border-color: white;
