@@ -11,6 +11,8 @@ export default defineConfig ({
             input: {
                 main: resolve(__dirname, 'index.html'),
                 about: resolve(__dirname, 'about/index.html'),
+                what_we_do: resolve(__dirname, 'what-we-do/index.html'),
+                why_beitor: resolve(__dirname, 'why-beitor/index.html'),
             },
         },
     },
